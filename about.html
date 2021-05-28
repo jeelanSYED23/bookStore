@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Books Lover | Ebookstore</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?
+      family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      body{
+        padding:0px;
+        text-decoration:none;
+        background-color:#311;
+      }
+      para{
+       text-align:inline;
+       justify-content:inline;
+       background:#3ff;
+       display:bold;
+      }
+      footer{
+        padding:none;
+        margin:0px;
+        justify-content:absolute;
+        margin:0px;
+        padding:0px;
+      }
+        h1{
+          align-content:center;
+          justify-content:left;
+
+        }
+        .btn{
+          background-color:pink;
+          color:red;
+          justify-content:top;
+
+        }
+    </style>
+    <body>
+      <!------------------ Header ------------------>
+      <div class="header">
+        <div class="container">
+          <div class="navbar"><!DOCTYPE html>
+          <html lang="en">
+            <head>
+              <meta charset="UTF-8" />
+              <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+              <title>The Books Lover | Ebookstore</title>
+              <link rel="stylesheet" href="style.css" />
+              <link rel="preconnect" href="https://fonts.gstatic.com" />
+              <link
+                href="https://fonts.googleapis.com/css2?
+                family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+                rel="stylesheet"
+              />
+              <link
+                rel="stylesheet"
+                href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+              />
+            <div class="logo">
+              <a href="index.html">
+                <img src="images/EbookStore-Logo.png" alt="EbookStore-Logo"
+              /></a>
+            </div>
+            <!----------  Nav Bar ------------------>
+            <nav>
+              <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="ebooks.html">Ebooks</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+              </ul>
+            </nav>
+            <a href="cart.html">
+              <img
+                src="images/cart.png"
+                alt="Shoping Cart"
+                width="28px"
+                height="28px"
+                style="margin-left: 10px; margin-top: 15px"
+              />
+            </a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" />
+          </div>
+          <div class="row">
+            <div class="col-2">
+    <div class="header">
+      <div class="main">
+        </div>
+        <h1 style="color:blue;">ABOUT US </h1>
+        <br>
+          The Books Lover<br />
+          Read all About it!
+        </h1>
+        <p>
+          <div class="para">
+      I have read the writings of many writers but I like the writings of Rabindranath Tagore the most. He had a deep insight into human nature. He left his soul behind in the form of his works. He wrote a number of novels, plays, short stories and poems. All his writing advocate the Indian culture in all aspects. He won the Nobel  prize for his collection of poems, the “Gijanjali”. It made his famous throughout the world. His poems are full of beauty of nature, love of God and children. His song “Jan-Gan-Man” is our National Anthem. His novels “Gora” and “Wreck” are very famous. His short stories deal with touching human experiences. One cannot forget his stories like “The Human Coming”, “Cabuliwala”, “Subha” and “The Postmaster”. Tagore was a successful write in every field of writing. He is beyond appreciation, beyond comparison. He was a versatile genius. His best works have been translated in too many foreign languages. He was a symbol of the true culture of this country. His name
+      will continue to shine in the annals of history. In short, he was such a great writer as is born in a country only once in many centuries. Such writers prove to be beacon light to the reading public.</p>
+      </div>
+      <button class="btn">Read More</button>
+      </div>
+</div>
+  </div>    <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col-1">
+              <h3>Download Our App</h3>
+              <p>Download App for Android and ios mobile phone.</p>
+              <div class="app-logo">
+                <img src="images/Playstore.png" />
+                <img src="images/Applestore.png" />
+              </div>
+            </div>
+            <div class="footer-col-2">
+              <img src="images/EbookStore-Logo-footer.png" />
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Reiciendis, Lorem ipsum dolor sit amet.
+              </p>
+            </div>
+            <div class="footer-col-3">
+              <h3>Useful Links</h3>
+              <ul>
+                <li>Coupons</li>
+                <li>Blog Post</li>
+                <li>Return Policy</li>
+                <li>Join Affiliate</li>
+              </ul>
+            </div>
+            <div class="footer-col-4">
+              <h3>Follow us</h3>
+              <ul>
+                <li>Facebook</li>
+                <li>Youtube</li>
+                <li>Instagram</li>
+                <li>Twitterr</li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <p class="copyright">Copyright 2020 - EbookStore</p>
+        </div>
+      </div>
+      <!-- ---------Javascript for toggle menu------------- -->
+      <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+          if (MenuItems.style.maxHeight == "0px") {
+            MenuItems.style.maxHeight = "200px";
+          } else {
+            MenuItems.style.maxHeight = "0px";
+          }
+        }
+      </script>
+    </body>
+  </html>
