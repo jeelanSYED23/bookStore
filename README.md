@@ -1,1 +1,2 @@
-https://jeelansyed23.github.io/bookStore/
+output:   https://jeelansyed23.github.io/bookStore/
+
